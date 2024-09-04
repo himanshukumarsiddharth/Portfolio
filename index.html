@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../src/icons8-dev-50.png" type="image/x-icon" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- nav section starts -->
+    <header>
+      <nav id="nav">
+        <h2 id="logo">Himanshu Kumar Siddharth</h2>
+        <ul class="nav_items">
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li id="resume">
+            <a href="./src/Himanshu_Kumar_Siddharth_resume.pdf" download>Resume</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <i class="hamburger_icon fa-solid fa-bars"></i>
+          <!-- <i class="fa-solid fa-xmark"></i>-->
+        </div>
+      </nav>
+    </header>
+    <!-- Nav section ends -->
+    <main>
+      <div class="hero-circles"></div>
+      <div class="hero">
+        <div class="hero-cover">
+          <div class="float-text">
+            I am<span> Himanshu Kumar Siddharth</span>
+          </div>
+          <div class="left-side">
+            <img src="../src/himanshuMain.jpg" alt="Himanshu's image" />
+          </div>
+          <div class="right-side">
+            <h5>Backend Developer</h5>
+            <span>2 Years of experience</span>
+          </div>
+        </div>
+        <div class="hero-description">
+          <h4>I am a Seasoned Backend Developer.</h4>
+          <p>
+            I specialize in designing and implementing robust, scalable
+            server-side solutions. My expertise include API development,
+            database optimization, and microservices architecture. I'm
+            passionate about writing clean, efficient code and solving complex
+            problems to deliver high-performance applications.
+          </p>
+        </div>
+      </div>
+      <div class="work-experience" id="experience">
+        <div class="work-experience-header">
+          <h3>Work Experience</h3>
+        </div>
+        <div class="work-experience-chart">
+          <div class="wec-card-layout">
+            <div class="wec-card">
+              <div class="wec-card-left">
+                <img src="../src/api.png" alt="api-icon" />
+              </div>
+              <div class="wec-card-right">
+                <h5>RESTful API</h5>
+                <p>
+                  Developed <b>scalable</b> and <b>dynamic</b> Restful Api using
+                  node.js and Sails.js,optimized backend codebase, enhancing
+                  system scalability and performance by reducing API response
+                  times.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="wec-card-layout">
+            <div class="wec-card">
+              <div class="wec-card-left">
+                <img src="../src/cache.png" alt="api-icon" />
+              </div>
+              <div class="wec-card-right">
+                <h5>REDIS</h5>
+                <p>
+                  Integrated <b>Redis</b> for caching, enhancing system
+                  performance by reducing database load and improving response.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="wec-card-layout">
+            <div class="wec-card">
+              <div class="wec-card-left">
+                <img src="../src/system-integration.png" alt="api-icon" />
+              </div>
+              <div class="wec-card-right">
+                <h5>System Architecture</h5>
+                <p>
+                  <b>Independently</b> managed client requirements, analyzing
+                  and integrating them into the <b>system architecture</b>,
+                  resulting in an increase in client satisfaction and project
+                  completion efficiency.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="wec-card-layout">
+            <div class="wec-card">
+              <div class="wec-card-left">
+                <img src="../src/authorize.png" alt="api-icon" />
+              </div>
+              <div class="wec-card-right">
+                <h5>Authorization</h5>
+                <p>
+                  Developed and integrated <b>middlewares</b> to streamline
+                  <b>authentication</b> and authorization processes, improving
+                  security and enhancing user management functionalities
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills" id="skills">
+        <div class="skills-header">
+          <h3>Skills</h3>
+          <p>
+            Specializing in backend development, I excel in creating efficient
+            server-side solutions, building robust APIs, managing databases, and
+            implementing complex business logic to power high-performance web
+            applications.
+          </p>
+        </div>
+        <div class="skill-list">
+          <div class="skill-list-icons">
+            <ul>
+              <li><i class="fa-brands fa-square-js"></i></li>
+              <li><i class="fa-brands fa-python"></i></li>
+              <li><i class="fa-brands fa-html5"></i></li>
+              <li><i class="fa-brands fa-css3-alt"></i></li>
+              <li><i class="fa-brands fa-node-js"></i></li>
+              <li><i class="fa-solid fa-sailboat"></i></li>
+              <li><p>express</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="project-heading" id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project-left">
+            <div class="project-left-heading">
+              <b>Job</b>
+              <h3>Manager</h3>
+            </div>
+            <div class="floating-project-description">
+              <p>
+                Developed a Job Manager Application using Node.js and Express,
+                featuring robust authentication and authorization
+                functionalities along with RESTful APIs for CRUD operations
+                enabling secure user access and data protection.
+              </p>
+            </div>
+          </div>
+          <div class="project-right">
+            <div class="project-right-bg">
+              <img src="../src/3094352.jpg" alt="svg" />
+            </div>
+          </div>
+        </div>
+        <div class="projects">
+          <div class="project-left">
+            <div class="project-left-heading">
+              <b>Github</b>
+              <h3>Scraper</h3>
+            </div>
+            <div class="floating-project-description">
+              <p>
+                A web scraping based project using cheerio module to scrap over
+                all the issues of repositories from top recommended topics in
+                GitHub and download separate pdf files for each repository and
+                topic into local system.
+              </p>
+            </div>
+          </div>
+          <div class="project-right">
+            <div class="project-right-bg">
+              <img src="../src/githubScrap.jpg" alt="svg" />
+            </div>
+          </div>
+        </div>
+        <div class="projects">
+          <div class="project-left">
+            <div class="project-left-heading">
+              <b>Chat</b>
+              <h3>App</h3>
+            </div>
+            <div class="floating-project-description">
+              <p>
+                Chat app is a modern and intuitive communication platform
+                designed for seamless real-time messaging. Built with a
+                user-friendly interface and robust features, it enables private
+                and group conversations, file sharing, and secure connections.
+              </p>
+            </div>
+          </div>
+          <div class="project-right">
+            <div class="project-right-bg">
+              <img src="../src/2855643.jpg" alt="svg" />
+            </div>
+          </div>
+        </div>
+        <div class="projects">
+          <div class="project-left">
+            <div class="project-left-heading">
+              <b>E book</b>
+              <h3>Seller</h3>
+            </div>
+            <div class="floating-project-description">
+              <p>
+                A simple book purchase website integrated with Stripe for
+                payment gateway which involves successful transactions using
+                Stripe and backend stripe pay management system to record
+                transaction history
+              </p>
+            </div>
+          </div>
+          <div class="project-right">
+            <div class="project-right-bg">
+              <img src="../src/2319407.jpg" alt="svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="education">
+        <div class="educationHeading">
+          <h3>Education</h3>
+        </div>
+        <div class="educationDescription">
+          <p>
+            Bachelor of Engineering in Electronics and Communication from
+            <b> B.M.S. Institute Of Technology and Management</b>
+          </p>
+          <p>CGPA-<b>8.2</b></p>
+        </div>
+      </div>
+      <hr />
+      <footer>
+        <div class="contact">
+          <h6>Contact me</h6>
+          <p>
+            via <a href="mailto:hksiddharth185@gmail.com">Email</a> or
+            <a href="tel:+918271392632">phone</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
